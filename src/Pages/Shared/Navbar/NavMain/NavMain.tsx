@@ -6,9 +6,9 @@ import './NavMain.css';
 
 const NavMain = () => {
   return (
-    <div>
+    <div >
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="fixed">
+        <AppBar  position="fixed">
           <Toolbar style={{backgroundColor:'white',color:'#556270',display:'flex',justifyContent:'space-between'}}>
               <Typography style={{fontWeight:'900',marginLeft:'4%',fontSize:"24px"}}>DETOX IT</Typography>
             <div  style={{display:'flex',alignItems:'center',marginRight:'10%'}}>

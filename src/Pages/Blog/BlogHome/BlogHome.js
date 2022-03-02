@@ -64,7 +64,7 @@ const BlogHome = () => {
                     </div>
                    <div style={{display:'flex',justifyContent:"center"}}>
 
-                   <div style={{ width: "400px",height:"300px",backgroundColor:'white',marginTop:"-350px",zIndex:'1100' }}>
+                   <div style={{ width: "400px",height:"300px",backgroundColor:'white',marginTop:"-350px",zIndex:'1000' }}>
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <Typography variant='span' style={{ backgroundColor: '#556270', color: 'white', padding: '8px 14px',marginTop:"-15px" }}>DECEMBER 2021</Typography>
 

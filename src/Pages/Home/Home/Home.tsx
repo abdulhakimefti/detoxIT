@@ -1,6 +1,7 @@
 import React from "react";
 import BlogHome from "../../Blog/BlogHome/BlogHome";
 import Footer from "../../Shared/Footer/Footer";
+import FooterMain from "../../Shared/Footer/FooterMain";
 import NavMain from "../../Shared/Navbar/NavMain/NavMain";
 import Newsletter from "../../Shared/Newsletter/Newsletter";
 import ContentDetox from "../Content/ContentDetox/ContentDetox";
@@ -19,6 +20,7 @@ const Home = () => {
         <VideoContent></VideoContent>
         <Newsletter></Newsletter>
         <Footer></Footer>
+        <FooterMain></FooterMain>
         </>
     )
 }
