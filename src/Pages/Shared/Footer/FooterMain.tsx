@@ -7,7 +7,7 @@ import './FooterMain.css';
 
 const FooterMain = () => {
     return (
-       <div>
+       <div> 
 
 <div>
 
@@ -34,15 +34,6 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
 
 
 </div>
-
-
-
-
-
-
-
-
-
         </div>
         <div style={{borderBottom: '3px solid #EEEFF1' ,marginTop:'0',zIndex:'1100' }}>
         <div>

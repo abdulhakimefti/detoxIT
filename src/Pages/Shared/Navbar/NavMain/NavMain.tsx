@@ -1,25 +1,65 @@
 import { AppBar, Button, Toolbar, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './NavMain.css';
 
+
+
 const NavMain = () => {
+  const [open, setOpen]= useState(false);
+  const toggle = () => setOpen(!open);
+  // const hide = () => setOpen(false)
+
+
+
+console.log(open)
+// console.log(navIcon)
+// const hamburger = document.querySelector(".hamburger");
+// const navLinks = document.querySelector(".nav-links");
+// const links = document.querySelectorAll(".nav-links li");
+
+// hamburger.addEventListener('click', ()=>{
+//    //Animate Links
+//     navLinks.classList.toggle("open");
+//     links.forEach(link => {
+//         link.classList.toggle("fade");
+//     });
+
+//     //Hamburger Animation
+//     hamburger.classList.toggle("toggle");
+// });
+// #556270
+
+
   return (
     <div >
       <Box sx={{ flexGrow: 1 }}>
         <AppBar  position="fixed">
-          <Toolbar style={{backgroundColor:'white',color:'#556270',display:'flex',justifyContent:'space-between'}}>
+          <Toolbar className="nav" style={{backgroundColor:'white',color:'#556270',display:'flex',justifyContent:'space-between'}}>
               <Typography style={{fontWeight:'900',marginLeft:'4%',fontSize:"24px"}}>DETOX IT</Typography>
+              <div className={`${open ? "hamburger toggle" : "hamburger"} `} onClick={toggle}>
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+        </div>
             <div  style={{display:'flex',alignItems:'center',marginRight:'10%'}}>
-            <div style={{display:'flex',}}>
-               <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',marginRight:'15px', position: 'relative',zIndex:0,cursor:"pointer"}}>About </Link>
-                  <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none',fontWeight:'700',marginRight:'15px', position: 'relative',zIndex:0,cursor:"pointer"}}>Services </Link>
-                  <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none',fontWeight:'700',marginRight:'15px', position: 'relative',zIndex:0,cursor:"pointer"}}>News </Link>
-                  <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none',fontWeight:'700',marginRight:'25px', position: 'relative',zIndex:0,cursor:"pointer"}}>Gallery </Link>
+            <div className={`${open ? "open nav-links" : "nav-links"}`} >
+              <div className={`${open ? "fade li" : "li"}`} >
+              <Link  to="#" className={`pulldown + ${open ? "linkStyle" : ""}`} >About </Link>
+              </div>
+              <div className={`${open ? "fade li" : "li"}`} >
+              <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>Services </Link>
+              </div>
+              <div className={`${open ? "fade li" : "li"}`} style={{marginRight:'15px', position: 'relative',zIndex:0,}}>
+              <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>News</Link>
+              </div>
+                  <div className={`${open ? "fade li" : "li"}`} style={{marginRight:'15px', position: 'relative',zIndex:0,}}>
+              <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>Gallery</Link>
+              </div>
                   
               </div>
-              <Button style={{color:'white',backgroundColor:'#FF6B6B',padding:'8px 16px'}}>JOIN US</Button>
+              <Button className="join-button" style={{display:'none',color:'white',backgroundColor:'#FF6B6B',padding:'8px 16px'}}>JOIN US</Button>
             </div>
           </Toolbar>
         </AppBar>
