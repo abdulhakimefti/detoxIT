@@ -1,0 +1,94 @@
+.inputs{
+    margin: 250px 0 0 0;
+}
+.sameInput {
+    padding: 10px 40px 10px 10px;
+    margin:'0 5px 0 0'
+}
+.diffInput{
+    padding: 10px 270px 10px 10px;
+}
+.nputsD{
+    display: flex;
+}
+.newsContainer{
+    margin-top: 200px;
+}
+
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 480px) { 
+    .grid{
+        margin-top: -150px;
+    }
+    .inputs{
+        margin: 30px 0 0 20%;
+    } 
+    .nputsD{
+        display: block;
+    }
+    .sameInput {
+        display: block;
+        padding: 10px 40px 10px 10px;
+        margin:'0 10px 10px 0'
+    }
+    .diffInput{
+        padding: 10px 40px 10px 10px;
+    }   
+    /* .newsContainer{
+        margin:'50px 20% 0 20%'
+    } */
+    .newsContainer{
+        margin-top: 50px;
+    }
+
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 768px) { 
+    .grid{
+        margin-top: -150px;
+    }
+    .newsletter{
+        /* display: none;   */
+    }   
+    .inputs{
+        margin: 30px 0 0 20%;
+    } 
+    .sameInput {
+        padding: 10px 0px 10px 02px;
+        margin:'0 10px 0 0'
+    }
+    .diffInput{
+        padding: 10px 170px 10px 10px;
+    }   
+    .newsContainer{
+        margin-top: 100px;
+    }
+
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 899px) { 
+
+    .inputs{
+        margin: 50px 0 0 20%;
+    }
+
+}
+@media (min-width: 900px) and (max-width: 1024px) { 
+
+    .inputs{
+        margin: 250px 0 0 0
+    }
+
+}
+/* Big Screen  */
+@media (min-width: 1025px) and (max-width: 1440px) { 
+
+
+
+}
+@media (min-width: 1440px) and (max-width: 2500px) { 
+
+
+
+}
