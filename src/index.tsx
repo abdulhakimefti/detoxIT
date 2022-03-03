@@ -9,7 +9,15 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 
 const theme = createTheme({
-
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 481,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+    },
+  },
   typography: {
     fontFamily: 
       '"Montserrat", sans-serif',

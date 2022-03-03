@@ -1,3 +1,6 @@
+.dataDiv{
+    margin: -525px 5% 94px 5% 
+}
 .headingOne {
   font-size: 60px;
   font-weight: 700;
@@ -17,9 +20,18 @@
 .img{
     width: 80%;
 }
+.colorGreen{
+    height: 300px;
+}
+.colorWhite{
+    height: 300px;
+}
 
 /* Mobile  */
 @media (min-width: 280px) and (max-width: 480px) {
+    .dataDiv{
+        margin: -525px 5% 94px 5% 
+    }
     .img{
         width: 100%}
     
@@ -45,37 +57,89 @@
 }
 /* Tablet or Ipad  */
 @media (min-width: 481px) and (max-width: 768px) {
+    .dataDiv{
+        margin: -550px 5% 94px 5% 
+    }
+    .img{
+        width: 85%}
+    
+  .headingOne {
+      margin-left: 10px;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  .loadingPara {
+    margin-top: -50px;
+    font-size: 20px;
+  }
+  .loadingPara2 {
+    font-size: 16px;
+  }
+  .details {
+    display: none;
+  }
+  .detailsRes {
+    display: initial;
+  }
 }
 
 /* Mini Screen or Laptop  */
 @media (min-width: 769px) and (max-width: 1024px) {
+    .dataDiv{
+        margin: -500px 5% 94px 5% 
+    }
+    .img{
+        width: 80%}
+    
+  .headingOne {
+      /* margin-left: 10px; */
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .loadingPara {
+      margin-top: -50px;
+    font-size: 20px;
+  }
+  .loadingPara2 {
+    font-size: 16px;
+  }
+  /* .details {
+    display: none;
+  } */
+  /* .detailsRes {
+    display: initial;
+  } */
+    
 }
 /* Big Screen  */
-@media (min-width: 1025) and (max-width: 1400px) {
+@media (min-width: 1025) and (max-width: 1440px) {
+    /* .dataDiv{
+        margin: -550px 5% 94px 5% 
+    } */
 }
-
-/* Mobile  */
-/* @media (min-width: 280px) and (max-width: 480px) { 
-
-
-
-} */
-/* Tablet or Ipad  */
-/* @media (min-width: 481px) and (max-width: 768px) { 
-
-
-
-} */
-
-/* Mini Screen or Laptop  */
-/* @media (min-width: 769px) and (max-width: 1024px) { 
-
-
-
-} */
-/* Big Screen  */
-/* @media (min-width: 1025) and (max-width: 1400px) { 
-
-
-
-} */
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .img{
+        width: 70%;
+    }
+    .dataDiv{
+        margin: -670px 5% 94px 5% 
+    }
+    .colorGreen{
+        height: 400px;
+    }
+    .colorWhite{
+        height: 400px;
+    }
+    .headingOne {
+        /* margin-left: 10px; */
+      font-size: 80px;
+      font-weight: 700;
+    }
+    .loadingPara {
+        /* margin-top: -50px; */
+      font-size: 28px;
+    }
+    .loadingPara2 {
+      font-size: 20px;
+    }
+}

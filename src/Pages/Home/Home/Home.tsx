@@ -14,8 +14,8 @@ const Home = () => {
         <>
         <NavMain></NavMain>
         <Landing></Landing>
-        {/* <ContentDetox></ContentDetox> */}
-        {/* <Services></Services> */}
+        <ContentDetox></ContentDetox>
+        <Services></Services>
         {/* <BlogHome></BlogHome> */}
         {/* <VideoContent></VideoContent> */}
         {/* <Newsletter></Newsletter> */}

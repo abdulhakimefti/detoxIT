@@ -6,9 +6,9 @@ import "./landing.css"
 const Landing = () => {
   return (
     <div style={{ marginTop: "57px" }}>
-      <div style={{ backgroundColor: "#00706E", height: "300px" }}></div>
-      <div style={{ backgroundColor: "#556270", height: "300px" }}></div>
-      <div style={{ display: "flex", margin: "-525px 5% 94px 5%" }}>
+      <div className="colorGreen" style={{ backgroundColor: "#00706E",}}></div>
+      <div className="colorWhite" style={{ backgroundColor: "#556270", }}></div>
+      <div className="dataDiv" style={{ display: "flex"}}>
         <div style={{ width: "50%" }}>
           <img className="img" src={illustration} />
         </div>

@@ -1,0 +1,74 @@
+.contentDetoxbg {
+    height:650px;
+}
+
+
+
+
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 480px) { 
+    .contentDetoxbg {
+        height:350px;
+    }
+    
+    
+
+
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 768px) { 
+
+
+
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 1024px) { 
+
+
+
+}
+/* Big Screen  */
+@media (min-width: 1025px) and (max-width: 1440px) { 
+
+    .contentDetoxbg {
+      margin-top: -30px;
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile  */
+/* @media (min-width: 280px) and (max-width: 480px) { 
+
+
+
+} */
+/* Tablet or Ipad  */
+/* @media (min-width: 481px) and (max-width: 768px) { 
+
+
+
+} */
+
+/* Mini Screen or Laptop  */
+/* @media (min-width: 769px) and (max-width: 1024px) { 
+
+
+
+} */
+/* Big Screen  */
+/* @media (min-width: 1025) and (max-width: 1400px) { 
+
+
+
+} */

@@ -1,0 +1,232 @@
+.box {
+  margin: 0 10%;
+}
+.serviceHeading {
+  font-size: 48px;
+}
+.card {
+  width: 300px;
+}
+.subCard{
+    margin: 40px 25px
+}
+.imageRadius {
+  width: 250px;
+  height: 250px;
+}
+.imagediv {
+  width: 200px;
+}
+.image {
+  width: 180px;
+}
+.detailsHeading {
+  font-size: 24px;
+}
+.detailsPara {
+  font-size: 14px;
+}
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 360px) {
+  .box {
+    margin: -200px 9% 0 9%;
+  }
+  .serviceHeading {
+    font-size: 24px;
+  }
+  .card {
+    width: 280px;
+    margin-bottom: 25px;
+  }
+  .imageRadius {
+    width: 250px;
+    height: 250px;
+  }
+  .imagediv {
+    width: 200px;
+  }
+  .image {
+    width: 180px;
+  }
+}
+/* Mobile 2  */
+
+@media (min-width: 361px) and (max-width: 420px) {
+  .box {
+    margin: -180px 13% 0 13%;
+  }
+  .serviceHeading {
+    font-size: 24px;
+  }
+  .card {
+    width: 300px;
+    margin-bottom: 25px;
+  }
+  .imageRadius {
+    width: 250px;
+    height: 250px;
+  }
+  .imagediv {
+    width: 200px;
+  }
+  .image {
+    width: 180px;
+  }
+}
+/* Mobile 3  */
+
+@media (min-width: 421px) and (max-width: 480px) {
+  .box {
+    margin: -160px 0% 0 18%;
+  }
+  .serviceHeading {
+    font-size: 24px;
+  }
+  .card {
+    width: 300px;
+    margin-bottom: 25px;
+  }
+  .imageRadius {
+    width: 250px;
+    height: 250px;
+  }
+  .imagediv {
+    width: 200px;
+  }
+  .image {
+    width: 180px;
+  }
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 600px) {
+  .box {
+    margin: -160px 2% 0 4%;
+  }
+  .serviceHeading {
+    font-size: 24px;
+  }
+  .card {
+    width: 160px;
+    margin-bottom: 25px;
+  }
+  .imageRadius {
+    width: 120px;
+    height: 120px;
+  }
+  .imagediv {
+    width: 80px;
+  }
+  .image {
+    width: 60px;
+  }
+  .detailsHeading {
+    font-size: 16px;
+  }
+  .detailsPara {
+    font-size: 12px;
+  }
+  .subCard{
+    margin: 40px 15px
+}
+}
+
+/* Tablet or Ipad  */
+@media (min-width: 600px) and (max-width: 768px) {
+        .box {
+            margin: -160px 2% 0 4%;
+          }
+          .serviceHeading {
+            font-size: 24px;
+          }
+          .card {
+            width: 180px;
+            margin-bottom: 25px;
+          }
+          .imageRadius {
+            width: 140px;
+            height: 140px;
+          }
+          .imagediv {
+            width: 100px;
+          }
+          .image {
+            width: 80px;
+          }
+          .detailsHeading {
+            font-size: 16px;
+          }
+          .detailsPara {
+            font-size: 12px;
+          }
+          .subCard{
+            margin: 40px 15px
+        }
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .box {
+        margin: -160px 2% 0 8%;
+      }
+      .serviceHeading {
+        font-size: 24px;
+      }
+      .card {
+        width: 220px;
+        margin-bottom: 25px;
+      }
+      .imageRadius {
+        width: 180px;
+        height: 180px;
+      }
+      .imagediv {
+        width: 160px;
+      }
+      .image {
+        width: 120px;
+      }
+      .detailsHeading {
+        font-size: 22px;
+      }
+      .detailsPara {
+        font-size: 14px;
+      }
+      .subCard{
+        margin: 40px 15px
+    }
+}
+/* Big Screen  */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .box {
+        margin: -160px 2% 0 8%;
+      }
+      .serviceHeading {
+        font-size: 24px;
+      }
+      .card {
+        width: 280px;
+        margin-bottom: 25px;
+      }
+      .imageRadius {
+        width: 240px;
+        height: 240px;
+      }
+      .imagediv {
+        width: 220px;
+      }
+      .image {
+        width: 160px;
+      }
+      .detailsHeading {
+        font-size: 24px;
+      }
+      .detailsPara {
+        font-size: 14px;
+      }
+      .subCard{
+        margin: 40px 15px
+    }
+
+}
+@media (min-width: 1440px) and (max-width: 2500px) {
+}
