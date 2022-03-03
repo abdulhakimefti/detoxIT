@@ -43,23 +43,26 @@ console.log(open)
             <div className="line2"></div>
             <div className="line3"></div>
         </div>
-            <div  style={{display:'flex',alignItems:'center',marginRight:'10%'}}>
-            <div className={`${open ? "open nav-links" : "nav-links"}`} >
-              <div className={`${open ? "fade" : "li"}`}style={{marginRight:'15px'}} >
-              <Link  to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>About </Link>
+            <div  className="navTwo">
+            <div  className={`${open ? "open nav-links" : "nav-links"}`} >
+              <div className="navThree">
+              <div className={`${open ? "fade li" : "li"}`} >
+              <Link  to="#" className="pullDown pullDownColor" style={{textDecoration:'none', cursor:"pointer"}}>About </Link>
               </div>
-              <div className={`${open ? "fade" : "li"}`} style={{marginRight:'15px', }}>
-              <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>Services </Link>
+              <div className={`${open ? "fade li" : "li"}`} >
+              <Link to="#" className="pullDown pullDownColor" style={{textDecoration:'none', cursor:"pointer"}}>Services </Link>
               </div>
-              <div className={`${open ? "fade" : "li"}`} style={{marginRight:'15px', }}>
-              <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>News</Link>
+              <div className={`${open ? "fade li" : "li"}`} >
+              <Link to="#" className="pullDown pullDownColor" style={{textDecoration:'none',cursor:"pointer"}}>News</Link>
               </div>
-                  <div className={`${open ? "fade" : "li"}`} style={{marginRight:'15px', }}>
-              <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>Gallery</Link>
+                  <div className={`${open ? "fade li" : "li"}`} >
+              <Link to="#" className="pullDown pullDownColor" style={{textDecoration:'none',cursor:"pointer"}}>Gallery</Link>
+              </div>
+             <div className="btnDiv"> <Button className="join-button" style={{display:'',color:'white',backgroundColor:'#FF6B6B',padding:'7px 15px'}}>JOIN US</Button></div>
               </div>
                   
               </div>
-              <Button className="join-button" style={{display:'none',color:'white',backgroundColor:'#FF6B6B',padding:'8px 16px'}}>JOIN US</Button>
+             
             </div>
           </Toolbar>
         </AppBar>

@@ -1,9 +1,7 @@
-
-
 .pullDown:before,
 .pullDown:after {
   margin-bottom: -3px;
-  
+
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -25,15 +23,24 @@
   opacity: 1;
   width: 100%;
 }
-
+.pullDownColor{
+  color:#556270;
+  font-weight: 700;
+}
 /* css for responsive  */
 
 .nav {
   /* background-color: #131418; */
   /* box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2); */
-  display: flex;
+  /* display: flex;
   position: fixed;
-  z-index: 10;
+  z-index: 10; */
+}
+.navTwo {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+
 }
 
 /*Styling logo*/
@@ -84,11 +91,12 @@
     transition: all ease-in-out 350ms;
 } */
 .join-button {
-  color: #131418;
-  background-color: #61dafb;
+  
+  color: white;
+  background-color: #FF6B6B;
   border: 1.5px solid #61dafb;
   border-radius: 2em;
-  padding: 0.6rem 0.8rem;
+  padding: 8px 16px;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -120,9 +128,55 @@
 .linkStyle {
   color: "white";
 }
+.li{
+  margin-right: 15px;
+}
+
+.navThree {
+  display: flex;
+  align-items: center;
+  /* margin:50px auto; */
+}
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
+  .pullDown:before,
+.pullDown:after {
+  margin-bottom: -3px;
 
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 3px;
+  content: "";
+  background: rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+.pullDown:before {
+  right: 0px;
+  bottom: 0px;
+}
+.pullDown:after {
+  left: 0px;
+  top: 0px;
+}
+.pullDown:hover:before,
+.pullDown:hover:before {
+  opacity: 1;
+  width: 100%;
+}
+  .pullDownColor{
+    font-weight: 300;
+    color: white;
+  
+  }
+  .navTwo {
+    display: block;
+    margin-top: -50px;
+  }
+  .navThree {
+    display: block;
+    margin:50px auto;
+  }
   .hamburger {
     display: block;
     position: absolute;
@@ -136,9 +190,9 @@
 
   .nav-links {
     position: fixed;
-    background: #00706E;
+    background: #00706e;
     height: 100vh;
-    width: 105%;
+    width: 100%;
     margin-left: -87%;
     flex-direction: column;
     clip-path: circle(50px at 90% -20%);
@@ -152,7 +206,7 @@
     pointer-events: all;
   }
   .nav-links .li {
-    opacity: 0;
+    opacity: 1;
   }
   .nav-links .li:nth-child(1) {
     transition: all 0.5s ease 0.2s;
@@ -171,9 +225,14 @@
     opacity: 1;
   }
 }
-.join-button {
-  display: none;
+.fade {
+  /* margin-right: 15; */
+   margin-bottom: 10px;
 }
+.btndiv{
+ margin: auto;
+}
+
 /*Animating Hamburger Icon on Click*/
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
