@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <>
         <NavMain></NavMain>
-        {/* <Landing></Landing> */}
+        <Landing></Landing>
         {/* <ContentDetox></ContentDetox> */}
         {/* <Services></Services> */}
         {/* <BlogHome></BlogHome> */}

@@ -1,10 +1,11 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import illustration from "../../../Media/illustrations.png";
+import './landing.css'
 
 const Landing = () => {
   return (
-    <div style={{ marginTop: "65px" }}>
+    <div style={{ marginTop: "57px" }}>
       <div style={{ backgroundColor: "#00706E", height: "300px" }}></div>
       <div style={{ backgroundColor: "#556270", height: "300px" }}></div>
       <div style={{ display: "flex", margin: "-525px 5% 94px 5%" }}>
