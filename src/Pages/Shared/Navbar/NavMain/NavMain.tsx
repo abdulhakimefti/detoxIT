@@ -45,16 +45,16 @@ console.log(open)
         </div>
             <div  style={{display:'flex',alignItems:'center',marginRight:'10%'}}>
             <div className={`${open ? "open nav-links" : "nav-links"}`} >
-              <div className={`${open ? "fade li" : "li"}`} >
-              <Link  to="#" className={`pulldown + ${open ? "linkStyle" : ""}`} >About </Link>
+              <div className={`${open ? "fade" : "li"}`}style={{marginRight:'15px'}} >
+              <Link  to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>About </Link>
               </div>
-              <div className={`${open ? "fade li" : "li"}`} >
+              <div className={`${open ? "fade" : "li"}`} style={{marginRight:'15px', }}>
               <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>Services </Link>
               </div>
-              <div className={`${open ? "fade li" : "li"}`} style={{marginRight:'15px', position: 'relative',zIndex:0,}}>
+              <div className={`${open ? "fade" : "li"}`} style={{marginRight:'15px', }}>
               <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>News</Link>
               </div>
-                  <div className={`${open ? "fade li" : "li"}`} style={{marginRight:'15px', position: 'relative',zIndex:0,}}>
+                  <div className={`${open ? "fade" : "li"}`} style={{marginRight:'15px', }}>
               <Link to="#" className="pullDown" style={{color:'#556270',textDecoration:'none', fontWeight:'700',cursor:"pointer"}}>Gallery</Link>
               </div>
                   

@@ -1,6 +1,9 @@
+
+
 .pullDown:before,
 .pullDown:after {
   margin-bottom: -3px;
+  
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -41,15 +44,15 @@
 }
 .nav-links .li .pulldown {
   text-decoration: none;
-  margin: 0 0.7vw;
+  /* margin: 0 0.7vw; */
 }
-.nav-links .li .pulldown:hover {
+/* .nav-links .li .pulldown:hover {
   color: #61dafb;
-}
+} */
 .nav-links .li {
   position: relative;
 }
-.nav-links .li .pulldown::before {
+/* .nav-links .li .pulldown::before {
   content: "";
   display: block;
   height: 3px;
@@ -61,7 +64,7 @@
 }
 .nav-links .li .pulldown:hover::before {
   width: 80%;
-}
+} */
 
 /*Styling Buttons*/
 /* .login-button{
@@ -115,14 +118,11 @@
   display: none;
 }
 .linkStyle {
-  color:"white"
+  color: "white";
 }
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
-  nav {
-    position: fixed;
-    z-index: 3;
-  }
+
   .hamburger {
     display: block;
     position: absolute;
@@ -136,10 +136,10 @@
 
   .nav-links {
     position: fixed;
-    background: #131418;
+    background: #00706E;
     height: 100vh;
     width: 105%;
-    margin-left:-87%;
+    margin-left: -87%;
     flex-direction: column;
     clip-path: circle(50px at 90% -20%);
     -webkit-clip-path: circle(50px at 90% -10%);
