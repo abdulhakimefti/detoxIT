@@ -20,7 +20,7 @@ const Home = () => {
         <VideoContent></VideoContent>
         <Newsletter></Newsletter>
         <Footer></Footer>
-        {/* <FooterMain></FooterMain> */}
+        <FooterMain></FooterMain>
         </>
     )
 }

@@ -3,7 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
 import './FooterMain.css';
-
+import detoxLogo from '../../../Media/android-icon-192x192.png'
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
+import map from '../../../Media/Simple-Location-Picker.png'
 
 const FooterMain = () => {
     return (
@@ -13,8 +15,6 @@ const FooterMain = () => {
 
 
 <div className="header" style={{zIndex:'1'}}>
-
-
 
 
 <div>
@@ -35,198 +35,139 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
 
 </div>
         </div>
-        <div style={{borderBottom: '3px solid #EEEFF1' ,marginTop:'0',zIndex:'1100' }}>
-        <div>
+        <div  style={{borderBottom: '3px solid #EEEFF1' ,marginTop:'0',zIndex:'1100' }}>
+        <div className='footerInfo'>
             <Grid container style={{ margin: "50px 0 50px 0" }}>
-                <Grid item md={1.5} style={{marginLeft:'10%'}}>
-                    <Typography style={{ color: 'red', fontWeight: '600' }}>Memberships
-                    </Typography>
-                    <div style={{ marginTop: '20px' }}>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>How to join
+                <Grid xs={4} sm={4} item md={1.5} >
+                   
+                  <div className='detoxInfo'>
+                  <div>
+                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>
+                            <img className='logoImage' src={detoxLogo} alt="logo" />
                         </Link>
                     </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member login
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Contact info
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Partners
-
-                        </Link>
-                    </div>
+                  </div>
                 </Grid>
-                <Grid item md={1.5}>
-                <Typography style={{ color: 'red', fontWeight: '600' }}>Sales packages
-
-                    </Typography>
-                    <div style={{ marginTop: '20px' }}>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Pricing information
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Knowledge base
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Product features
-
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Integrations
-
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Custom API
-
-
-                        </Link>
-                    </div>
-                </Grid>
-                <Grid item md={2}>
-                <Typography style={{ color: 'red', fontWeight: '600' }}>Help and guidance
-
-                    </Typography>
-                    <div style={{ marginTop: '20px' }}>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>How to join
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
-
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member login
-
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Partners
-
-                        </Link>
-                    </div>
-                </Grid>
-                <Grid item md={2}>
-                <Typography style={{ color: 'red', fontWeight: '600' }}>About our business
-
-                    </Typography>
-                    <div style={{ marginTop: '20px' }}>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>How to join
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member login
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Contact info
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Partners
-
-                        </Link>
-                    </div>
-                </Grid>
-                <Grid item md={1.5}>
-                <Typography style={{ color: 'red', fontWeight: '600' }}>Support tickets
-
-                    </Typography>
-                    <div style={{ marginTop: '20px' }}>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>How to join
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member login
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Contact info
-
-
-                        </Link>
-                    </div>
-                    <div>
-                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Partners
-
-                        </Link>
-                    </div>
-                </Grid>
-            </Grid>
-        </div>
-    </div>
-<div style={{height:"50px",display:'flex',justifyContent:'flex-end',alignItems:'center'}}>
-        <div style={{marginRight:'50px'}}>
+                <Grid item xs={8} sm={8} md={3} >
+              <div className='infoContainer'>
+              <p style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Lorem ipsum dolor sit amet <br/>
+                consectetur adipisicing elit. <br/> Qui, ducimus?</p>
+                <div style={{height:"",display:'flex',justifyContent:'flex-start',alignItems:'center'}}>
+        <div>
         <span>
       <SocialIcon
-        style={{ width: "35px", height: "35px", marginRight: "8px" }}
+        style={{ width: "30px", height: "30px", marginRight: "8px" }}
         fgColor="white"
         network="facebook"
       />
     </span>
     <span>
       <SocialIcon
-        style={{ width: "35px", height: "35px", marginRight: "8px" }}
+        style={{ width: "30px", height: "30px", marginRight: "8px" }}
         fgColor="white"
         network="instagram"
       />
     </span>
     <span>
       <SocialIcon
-        style={{ width: "35px", height: "35px", marginRight: "8px" }}
+        style={{ width: "30px", height: "30px", marginRight: "8px" }}
         fgColor="white"
         network="linkedin"
       />
     </span>
         </div>
+       
     </div>
+    <div style={{margin:"5px 0 0 0",display:'flex',alignItems:'center'}}>
+       <EmailOutlinedIcon style={{fontSize:"30px"}}></EmailOutlinedIcon> <span style={{marginLeft:"5px" ,fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px'}}>info@detoxdit.com</span>
+       </div>
+       <div style={{margin:"5px 0 0 0",display:'flex',alignItems:'center'}}>
+       <CallOutlinedIcon style={{fontSize:"30px"}}></CallOutlinedIcon> <span style={{marginLeft:"5px" ,fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px'}}>+880 1800-000000</span>
+       </div>
+                  </div>
+                </Grid>
+             
+                <Grid className='hide b '  item md={2} style={{marginTop:"-15px"}}>
+               <div >
+               <Typography style={{ color: 'black', fontWeight: '600' }}>Information
+
+</Typography>
+<div style={{ marginTop: '20px' }}>
+    <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>How to join
+    </Link>
+</div>
+<div>
+    <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
+
+    </Link>
+</div>
+<div>
+    <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member login
+
+
+    </Link>
+</div>
+<div>
+    <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Contact info
+
+
+    </Link>
+</div>
+<div>
+    <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Partners
+
+    </Link>
+</div>
+               </div>
+                </Grid>
+                <Grid className='hide' item md={2} style={{marginTop:"-15px"}}>
+                <Typography style={{ color: 'black', fontWeight: '600' }}>Our Services
+
+                    </Typography>
+                    <div style={{ marginTop: '20px' }}>
+                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>How to join
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member benefits
+
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Member login
+
+
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Contact info
+
+
+                        </Link>
+                    </div>
+                    <div>
+                        <Link to='#' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px' }}>Partners
+
+                        </Link>
+                    </div>
+                </Grid>
+                <Grid className='hide' item md={2} style={{marginTop:"-15px"}}>
+                <Typography style={{ color: 'black', fontWeight: '600' }}>Address
+
+                    </Typography>
+                    <div style={{ marginTop: '20px',fontWeight: '600', textDecoration: 'none', color: '#556270',fontSize:'14px'  }}>
+                        Detox IT,Block#A,<br/> Halishahar,Chattogram
+                    </div>
+                   <div>
+                       <img style={{width:'200px',height:"100px"}} src={map} alt="map" />
+                   </div>
+                </Grid>
+            </Grid>
+        </div>
+    </div>
+        <div className='copyRightContainer'>
+        <p  className='copytypo' style={{ fontWeight: '600', textDecoration: 'none', color: '#556270' }}>Copyright©2022 detoxdit.com||All Rights Reserved||Developed By Abdul  Hakim</p>
+        </div>
        </div>
     );
 };

@@ -1,22 +1,6 @@
 
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
-body {
-  margin:0;
-}
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight:300;
-  letter-spacing: 2px;
-  font-size:48px;
-}
-p {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
-  font-size:14px;
-  color: #333333;
-}
 
 .header {
   position:relative;
@@ -104,8 +88,95 @@ p {
     font-size:24px;
   }
 } */
+.footerInfo{
+  margin: 0 5%;
+}
+.detoxInfo{
+  /* margin-left: ; */
+}
+.logoImage{
+  width:130px
+}
+.infoContainer{
+  margin-top: -20px;
+}
+.copyRightContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copytypo{
+  font-size: 14px;
+}
+
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 480px) { 
+
+  .hide{
+    display: none;
+  }
+  .logoImage{
+    width:100px;
+    margin-top: 30px;
+  }
+  .copytypo{
+   
+    font-size: 10px;
+  }
+  .copyRightContainer{
+    margin:''
+  }
+
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 768px) { 
+  .footerInfo{
+    margin: 0 15%;
+  }
+  .hide{
+    display: none;
+  }
+  .logoImage{
+    /* width:100px; */
+    margin-top: 30px;
+  }
+  .copytypo{
+   
+    font-size: 12px;
+  }
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 900px) { 
+  .footerInfo{
+    margin: 0 15%;
+  }
+  .hide{
+    display: none;
+  }
+  .logoImage{
+    /* width:100px; */
+    margin-top: 30px;
+  }
+
+
+}
+/* Big Screen  */
+@media (min-width: 901px) and (max-width: 1024px) { 
+
+  .footerInfo{
+    /* margin: 0 15%; */
+  }
+  
+  .logoImage{
+    margin-left: -15px;
+    /* width:100px; */
+    margin-top: 30px;
+  }
+
+}
+@media (min-width: 1440px) and (max-width: 2500px) { 
 
 
 
-
-
+}
