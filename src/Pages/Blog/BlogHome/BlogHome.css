@@ -1,0 +1,315 @@
+.blogContainer {
+  margin-left: 14%;
+}
+.blogDate {
+  padding: 2px 5px;
+}
+.blogHeading {
+  font-size: 48px;
+}
+.blog {
+  font-size: 16px;
+}
+.blogHeadingDiv {
+  margin: 20px 0;
+}
+.eventHeading {
+  font-size: 24px;
+  width: 70%;
+}
+.eventPara {
+  font-size: 14px;
+  width: 70%;
+  margin-top: 25px;
+}
+.borderHeight {
+  height: 200px;
+}
+.borderHeightD {
+  height: 250px;
+}
+
+.imageContainer {
+  height: 800px;
+}
+.imageBlog {
+  width: 85%;
+  margin: 50px 0 0 0;
+}
+.imageDate {
+  padding: 8px 14px;
+}
+.imageCard {
+  margin-top: -350px;
+  width: 400px;
+  height: 300px;
+}
+.cardHeading {
+  font-size: 32px;
+  margin: 15px 0;
+}
+.cardPara {
+  font-size: 14px;
+}
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 349px) {
+  .blogContainer {
+    margin-left: 0%;
+  }
+  .eventContainer {
+    margin-left: 4%;
+  }
+  .blogDate {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+  .blogHeading {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .blog {
+    font-size: 12px;
+  }
+  .blogHeadingDiv {
+    margin: 5px 0;
+  }
+  .eventHeading {
+    font-size: 16px;
+    width: 90%;
+  }
+  .eventPara {
+    font-size: 12px;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .borderHeight {
+    height: 170px;
+  }
+  .borderHeightD {
+    height: 200px;
+  }
+  .imageContainer {
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+  }
+  .imageBlog {
+    width: 80%;
+    margin: 25px 0 0 0;
+  }
+  .imageDate {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+  .imageCard {
+    margin-top: -200px;
+    width: 200px;
+    height: 180px;
+  }
+  .cardHeading {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .cardPara {
+    font-size: 10px;
+  }
+}
+@media (min-width: 350px) and (max-width: 480px) {
+  .blogContainer {
+    margin-left: 0%;
+  }
+  .eventContainer {
+    margin-left: 4%;
+  }
+  .blogDate {
+    font-size: 14px;
+    padding: 2px 5px;
+  }
+  .blogHeading {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .blog {
+    font-size: 12px;
+  }
+  .blogHeadingDiv {
+    margin: 5px 0;
+  }
+  .eventHeading {
+    font-size: 18px;
+    width: 90%;
+  }
+  .eventPara {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .borderHeight {
+    height: 200px;
+  }
+  .borderHeightD {
+    height: 220px;
+  }
+  .imageContainer {
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+  }
+  .imageBlog {
+    height: 350px;
+    width: 80%;
+    margin: 25px 0 0 0;
+  }
+  .imageDate {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+  .imageCard {
+    margin-top: -200px;
+    width: 210px;
+    height: 190px;
+  }
+  .cardHeading {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .cardPara {
+    font-size: 10px;
+  }
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 768px) {
+  .blogContainer {
+    margin-left: 0%;
+  }
+  .eventContainer {
+    margin-left: 8%;
+  }
+  .blogDate {
+    font-size: 15px;
+    padding: 2px 5px;
+  }
+  .blogHeading {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  .blog {
+    font-size: 12px;
+  }
+  .blogHeadingDiv {
+    margin: 5px 0;
+  }
+  .eventHeading {
+    font-size: 22px;
+    width: 90%;
+  }
+  .eventPara {
+    font-size: 16px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .borderHeight {
+    height: 200px;
+  }
+  .borderHeightD {
+    height: 220px;
+  }
+  .imageContainer {
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 80%;
+    height: 650px;
+  }
+  .imageBlog {
+    height: 600px;
+    width: 80%;
+    margin: 25px 0 0 0;
+  }
+  .imageDate {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+  .imageCard {
+    margin-top: -250px;
+    width: 260px;
+    height: 220px;
+  }
+  .cardHeading {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .cardPara {
+    font-size: 12px;
+  }
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .blogContainer {
+    margin-left: 0%;
+  }
+  .eventContainer {
+    margin-left: 14%;
+  }
+  .blogDate {
+    font-size: 15px;
+    padding: 2px 5px;
+  }
+  .blogHeading {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  .blog {
+    font-size: 12px;
+  }
+  .blogHeadingDiv {
+    margin: 5px 0;
+  }
+  .eventHeading {
+    font-size: 22px;
+    width: 90%;
+  }
+  .eventPara {
+    font-size: 16px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .borderHeight {
+    height: 200px;
+  }
+  .borderHeightD {
+    height: 220px;
+  }
+  .imageContainer {
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 80%;
+    height: 650px;
+  }
+  .imageBlog {
+    height: 600px;
+    width: 80%;
+    margin: 25px 0 0 0;
+  }
+  .imageDate {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+  .imageCard {
+    margin-top: -260px;
+    width: 350px;
+    height: 240px;
+  }
+  .cardHeading {
+    font-size: 26px;
+    margin: 10px 0;
+  }
+  .cardPara {
+    font-size: 14px;
+  }
+}
+/* Big Screen  */
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
