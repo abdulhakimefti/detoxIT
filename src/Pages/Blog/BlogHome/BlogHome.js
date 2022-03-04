@@ -1,12 +1,13 @@
 import { Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 import blogImage from '../../../Media/blogImage.png'
+import './BlogHome.css'
 
 const BlogHome = () => {
     return (
         <div style={{ marginLeft: '14%',marginBottom:'50px',marginTop:'25px' }}>
             <Grid container>
-                <Grid item md={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <div>
 
                         <Typography variant='span' style={{ fontWeight: '700', backgroundColor: '#F4DDDF', color: "red", }}>BLOG</Typography>
@@ -44,7 +45,7 @@ const BlogHome = () => {
                             <Typography variant='span' style={{ padding: '2px 5px', fontWeight: '500', backgroundColor: 'red', color: "white", }}>11 dec 2021</Typography>
                             <div style={{ borderLeft: '2px solid red', height: '250px', margin: '0 45px' }}></div>
                         </Grid>
-                        <Grid item md={9}>
+                        <Grid  item md={9}>
                             <Typography style={{ fontSize: '24px', width: "70%" }}>Using data analysis insight to inform decisions
 
                             </Typography>
@@ -56,7 +57,7 @@ const BlogHome = () => {
 
 
                 </Grid>
-                <Grid item md={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <div style={{ backgroundColor: '#FF6B6B', height: '800px', }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <img style={{ width: '85%', marginTop: "50px" }} src={blogImage} />
