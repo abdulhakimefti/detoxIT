@@ -5,7 +5,7 @@ import "./landing.css"
 
 const Landing = () => {
   return (
-    <div style={{ marginTop: "57px" }}>
+    <div >
       <div className="colorGreen" style={{ backgroundColor: "#00706E",}}></div>
       <div className="colorWhite" style={{ backgroundColor: "#556270", }}></div>
       <div className="dataDiv" style={{ display: "flex"}}>

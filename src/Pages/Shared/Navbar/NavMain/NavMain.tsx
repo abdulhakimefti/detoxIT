@@ -33,7 +33,7 @@ console.log(open)
 
 
   return (
-    <div >
+    <div style={{ marginBottom: "57px" }}>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar  position="fixed">
           <Toolbar className="nav" style={{backgroundColor:'white',color:'#556270',display:'flex',justifyContent:'space-between'}}>
@@ -47,16 +47,16 @@ console.log(open)
             <div  className={`${open ? "open nav-links" : "nav-links"}`} >
               <div className="navThree">
               <div className={`${open ? "fade li" : "li"}`} >
-              <Link  to="#" className="pullDown pullDownColor" style={{textDecoration:'none', cursor:"pointer"}}>About </Link>
+              <Link  to="/about" className="pullDown pullDownColor" style={{textDecoration:'none', cursor:"pointer"}}>About </Link>
               </div>
               <div className={`${open ? "fade li" : "li"}`} >
-              <Link to="#" className="pullDown pullDownColor" style={{textDecoration:'none', cursor:"pointer"}}>Services </Link>
+              <Link to="/services" className="pullDown pullDownColor" style={{textDecoration:'none', cursor:"pointer"}}>Services </Link>
               </div>
               <div className={`${open ? "fade li" : "li"}`} >
-              <Link to="#" className="pullDown pullDownColor" style={{textDecoration:'none',cursor:"pointer"}}>News</Link>
+              <Link to="/news" className="pullDown pullDownColor" style={{textDecoration:'none',cursor:"pointer"}}>News</Link>
               </div>
                   <div className={`${open ? "fade li" : "li"}`} >
-              <Link to="#" className="pullDown pullDownColor" style={{textDecoration:'none',cursor:"pointer"}}>Gallery</Link>
+              <Link to="/gallery" className="pullDown pullDownColor" style={{textDecoration:'none',cursor:"pointer"}}>Gallery</Link>
               </div>
              <div className="btnDiv"> <Button className="join-button" style={{display:'',color:'white',backgroundColor:'#FF6B6B',padding:'7px 15px'}}>JOIN US</Button></div>
               </div>

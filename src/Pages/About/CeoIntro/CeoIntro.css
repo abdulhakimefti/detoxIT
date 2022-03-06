@@ -1,0 +1,230 @@
+.ceoCard {
+  width: 290px;
+  height: 420px;
+  background-color: #000;
+  border-radius: 5px;
+  position: relative;
+  bottom: 0;
+  transition: bottom 0.8s;
+  overflow: hidden;
+  padding: 5px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 14px -2px rgba(255, 255, 255, 0.1);
+}
+.ceoCard .inner {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+.ceoCard .title {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 10px;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+.ceoCard .image {
+  width: 100%;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  filter: grayscale(90%);
+  opacity: 0.8;
+  transition: transform 0.7s, left 0.7s, bottom 0.2s;
+}
+.ceoCard .image img {
+  width: 130%;
+}
+.ceoCard .items {
+  width: 20px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  top: 180px;
+}
+.ceoCard .item {
+  position: relative;
+  right: 50px;
+}
+.ceoCard .item svg {
+  fill: #fff;
+  width: 25px;
+  height: auto;
+  transition: fill 0.4s;
+}
+.ceoCard .item:hover svg {
+  fill: #428cfd;
+}
+.ceoCard:hover {
+  bottom: 20px;
+}
+.ceoCard:hover .image {
+  transform: scale(1.5);
+  left: 57%;
+}
+.ceoCard:hover .item {
+  right: 0;
+}
+.ceoCard:hover .title {
+  opacity: 0.85;
+}
+.item:nth-child(5) {
+  transition: right 0.3s 0.1s;
+}
+.item:nth-child(4) {
+  transition: right 0.3s 0.2s;
+}
+.item:nth-child(3) {
+  transition: right 0.3s 0.3s;
+}
+.item:nth-child(2) {
+  transition: right 0.3s 0.4s;
+}
+.item:nth-child(1) {
+  transition: right 0.3s 0.5s;
+}
+
+/* custom css  */
+.headingTeam {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.ceoImage {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.ceoName {
+  font-size: 42px;
+
+  font-weight: 700;
+}
+.ceo {
+  font-size: 24px;
+  font-weight: 500;
+}
+.ceoInfo {
+  margin-right: 50px;
+}
+.ceoIntro {
+  margin-top: 25px;
+  width: 95%;
+}
+.ceoIntro p {
+  font-size: 18px;
+  color: "#606060";
+}
+
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 480px) {
+  .ceoName {
+    font-size: 32px;
+
+    font-weight: 700;
+  }
+  .ceo {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .ceoIntro {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .ceoIntro p {
+    font-size: 14px;
+
+  }
+  .ceoInfo {
+      margin:0 25px;
+    margin-right: 0;
+  }
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 630px) {
+    .ceoName {
+        font-size: 32px;
+    
+        font-weight: 700;
+      }
+      .ceo {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .ceoIntro {
+        margin-top: 15px;
+        width: 100%;
+      }
+      .ceoIntro p {
+        font-size: 14px;
+    
+      }
+      .ceoInfo {
+          margin:0 15px;
+        /* margin-right: 15px; */
+      }
+}
+@media (min-width: 631px) and (max-width: 768px) {
+    .ceoName {
+        font-size: 32px;
+    
+        font-weight: 700;
+      }
+      .ceo {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .ceoIntro {
+        margin-top: 15px;
+        width: 95%;
+      }
+      .ceoIntro p {
+        font-size: 14px;
+    
+      }
+      .ceoInfo {
+          /* margin:0 25px; */
+        margin-right: 15px;
+      }
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ceoName {
+        font-size: 32px;
+    
+        font-weight: 700;
+      }
+      .ceo {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .ceoIntro {
+        margin-top: 15px;
+        width: 90%;
+      }
+      .ceoIntro p {
+        font-size: 16px;
+    
+      }
+      .ceoInfo {
+          /* margin:0 25px; */
+        margin-right: 20px;
+      }
+}
+/* Big Screen  */
+@media (min-width: 1025px) and (max-width: 1440px) {
+   
+}
+@media (min-width: 1440px) and (max-width: 2500px) {
+}
