@@ -3,8 +3,14 @@ import React from "react";
 import ceo from "../../../Media/274256898_4570846466378009_6372788330073033383_n-removebg-preview.png";
 import tasnim from '../../../Media/Zeba_Tasnim_Apprentice_Visualizer_-removebg-preview.png'
 import "./OtherIntro.css";
-import noushad from '../../../Media/noushad.png'
-
+import noushad from '../../../Media/noushadul-alam.png'
+import arif from '../../../Media/arif.png'
+import mumita from '../../../Media/moumita.png'
+import adiba from '../../../Media/aadiba.png'
+import aniqa from '../../../Media/aniqa-tabassum.png';
+import puja from '../../../Media/274256898_4570846466378009_6372788330073033383_n-removebg-preview (1).png'
+import jamil from '../../../Media/jamil.png'
+import efti from '../../../Media/275250225_254806390180483_8943919695132369129_n__1_-removebg-preview.png'
 const OtherIntro = () => {
   return (
     <div style={{marginTop:'25px'}}>
@@ -15,9 +21,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam</p>
+            <p className="title">Arif</p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img src={arif} alt=""/>
             </div>
             <div className="items">
            
@@ -42,7 +48,7 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Md Noushadul Alam Bhuiyan <span style={{fontSize:'14px'}}>Photographer</span></p>
+            <p className="title">Md Noushadul Alam Bhuiyan <br/> <span style={{fontSize:'14px'}}>Photographer</span></p>
             <div className="image">
                 <img  src={noushad} alt=""/>
             </div>
@@ -67,9 +73,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam</p>
+            <p className="title">Husna Wadoda Chowdhury Moumita<br/> <span style={{fontSize:'14px'}}>Associate Content Writer</span></p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img src={mumita} alt=""/>
             </div>
             <div className="items">
            
@@ -93,9 +99,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam</p>
+        <p className="title">Husna Adiba Chowdhury<br/> <span style={{fontSize:'14px'}}>Associate Content Writer</span></p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img src={adiba} alt=""/>
             </div>
             <div className="items">
            
@@ -120,9 +126,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Zaba Tasnim  <br/> <span style={{fontSize:'14px'}}>Apprentice Visulizer</span></p>
+            <p className="title">Aniqa Tabassum  <br/> <span style={{fontSize:'14px'}}>Apprentice - Social Media Marketer</span></p>
             <div className="image">
-                <img src={tasnim} alt=""/>
+                <img src={aniqa} alt=""/>
             </div>
             <div className="items">
            
@@ -145,9 +151,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam</p>
+            <p className="title">Zeba Afia Tasnim  <br/> <span style={{fontSize:'14px'}}>Apprentice Visulizer</span></p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img src={tasnim} alt=""/>
             </div>
             <div className="items">
            
@@ -171,9 +177,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam</p>
+            <p className="title">Puja Chakraborty <br/> <span style={{fontSize:'14px'}}>Apprentice Visulizer</span></p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img src={puja} alt=""/>
             </div>
             <div className="items">
            
@@ -198,9 +204,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam</p>
+            <p className="title">Abdul Hakim <br/> <span style={{fontSize:'14px'}}>Web Developer</span></p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img style={{width:'150%'}} src={efti} alt=""/>
             </div>
             <div className="items">
            
@@ -223,9 +229,9 @@ const OtherIntro = () => {
           <div className="ceoImage">
           <div className="ceoCard">
         <div className="inner">
-            <p className="title">Nahiul Alam <br/> <span style={{fontSize:'14px'}}>CEO</span></p>
+            <p className="title">Abdullah Al Jamil<br/> <span style={{fontSize:'14px'}}>Offline Leader</span></p>
             <div className="image">
-                <img src={ceo} alt=""/>
+                <img src={jamil} alt=""/>
             </div>
             <div className="items">
            
