@@ -8,6 +8,7 @@ import digital from "../../../Media/bullhorn.png";
 import grapic from "../../../Media/vector.png";
 import equipment from "../../../Media/laptop.png";
 import { Link } from "react-router-dom";
+import { Button, Grid } from "@mui/material";
 const ServiceMain = () => {
   return (
     <div
@@ -15,14 +16,17 @@ const ServiceMain = () => {
         margin: "110px 0 50px 0",
         display: "flex",
         justifyContent: "center",
+       
       }}
     >
       <div>
         {" "}
         <h1 className="service-title">Our Services</h1>{" "}
-        <div className="services">
-          <Link to="/courses">
-            {" "}
+        <Grid container className="services">
+       
+          
+            {" "}<Grid xs={12} md={4} sm={6}>
+            
             <div className="services__box">
               <figure
                 className="services__icon"
@@ -36,13 +40,13 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>
-                <ArrowForwardIosIcon
+                <Link to="/courses"><Button> <ArrowForwardIosIcon
                   style={{ color: "white", marginTop: "-10px" }}
-                ></ArrowForwardIosIcon>
+                ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
-          </Link>
-          <Link to="/softskill">
+            </Grid>
+            <Grid xs={12} md={4} sm={6}>
             <div className="services__box">
               <figure
                 className="services__icon"
@@ -57,14 +61,13 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <ArrowForwardIosIcon
+                <Link to="/softskill"><Button> <ArrowForwardIosIcon
                   style={{ color: "white", marginTop: "-10px" }}
-                ></ArrowForwardIosIcon>
+                ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
-          </Link>
-          <Link to="/webdev">
-            {" "}
+            </Grid>
+            {" "}<Grid xs={12} md={4} sm={6}>
             <div className="services__box">
               <figure
                 className="services__icon"
@@ -78,14 +81,13 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <ArrowForwardIosIcon
+                <Link to="/webdev"><Button> <ArrowForwardIosIcon
                   style={{ color: "white", marginTop: "-10px" }}
-                ></ArrowForwardIosIcon>
+                ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
-          </Link>
-          <Link to="/digitalcontent">
-            {" "}
+            </Grid>
+            {" "}<Grid xs={12} md={4} sm={6}>
             <div className="services__box">
               <figure
                 className="services__icon"
@@ -99,14 +101,13 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <ArrowForwardIosIcon
+                <Link  to="/digitalcontent"><Button> <ArrowForwardIosIcon
                   style={{ color: "white", marginTop: "-10px" }}
-                ></ArrowForwardIosIcon>
+                ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
-          </Link>
-          <Link to="/designservices">
-            {" "}
+            </Grid>
+            {" "}   <Grid xs={12} md={4} sm={6}>
             <div className="services__box">
               <figure
                 className="services__icon"
@@ -120,15 +121,15 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <ArrowForwardIosIcon
+                <Link to="/designservices"><Button> <ArrowForwardIosIcon
                   style={{ color: "white", marginTop: "-10px" }}
-                ></ArrowForwardIosIcon>
+                ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
-          </Link>
-          <Link to="/computerequip">
+            </Grid>
             {" "}
-            <div className="services__box">
+           <Grid xs={12} md={4} sm={6}>
+           <div className="services__box">
               <figure
                 className="services__icon"
                 style={{ backgroundColor: "#cd57ff" }}
@@ -141,14 +142,15 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <ArrowForwardIosIcon
+                <Link to="/computerequip"><Button> <ArrowForwardIosIcon
                   style={{ color: "white", marginTop: "-10px" }}
-                ></ArrowForwardIosIcon>
+                ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
-          </Link>
+             </Grid>
+            </Grid>
         </div>
-      </div>
+    
     </div>
   );
 };
