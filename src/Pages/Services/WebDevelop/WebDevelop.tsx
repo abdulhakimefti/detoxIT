@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import FooterMain from "../../Shared/Footer/FooterMain";
 import NavMain from "../../Shared/Navbar/NavMain/NavMain";
 import {
@@ -19,13 +19,13 @@ import "../Courses/Courses.css";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
-const SoftSkill = () => {
-  return (
-    <div>
+const WebDevelop = () => {
+    return (
+        <div>
       <NavMain></NavMain>
       <div className="courseContainer" style={{ margin: "110px 0 50px 0" }}>
         <div>
-          <h1 className="course-title">Our Courses</h1>{" "}
+          <h1 className="course-title">Website packages</h1>{" "}
           <div className="services">
             <div className="container">
               <div className="row">
@@ -230,7 +230,7 @@ const SoftSkill = () => {
       </div>
       <FooterMain></FooterMain>
     </div>
-  );
+    );
 };
 
-export default SoftSkill;
+export default WebDevelop;

@@ -131,3 +131,38 @@
         transform: scaleX(.2);
     }
 }
+/* Mobile  */
+@media (min-width: 280px) and (max-width: 480px) { 
+
+    .h4C{
+        font-size: 22px;
+    }
+    .pC{
+        font-size: 14px;
+    }
+
+}
+/* Tablet or Ipad  */
+@media (min-width: 481px) and (max-width: 768px) { 
+
+
+
+}
+
+/* Mini Screen or Laptop  */
+@media (min-width: 769px) and (max-width: 1024px) { 
+
+
+
+}
+/* Big Screen  */
+@media (min-width: 1025px) and (max-width: 1440px) { 
+
+
+
+}
+@media (min-width: 1440px) and (max-width: 2500px) { 
+
+
+
+}

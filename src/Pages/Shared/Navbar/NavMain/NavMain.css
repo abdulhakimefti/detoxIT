@@ -8,7 +8,7 @@
   height: 3px;
   content: "";
   background: rgb(255, 0, 0);
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 .pullDown:before {
   right: 0px;
@@ -23,8 +23,8 @@
   opacity: 1;
   width: 100%;
 }
-.pullDownColor{
-  color:#556270;
+.pullDownColor {
+  color: #556270;
   font-weight: 700;
 }
 /* css for responsive  */
@@ -40,7 +40,6 @@
   display: flex;
   align-items: center;
   margin-right: 10%;
-
 }
 
 /*Styling logo*/
@@ -91,21 +90,23 @@
     transition: all ease-in-out 350ms;
 } */
 .join-button {
-  
-  color: white;
-  background-color: #FF6B6B;
-  border: 1.5px solid #61dafb;
-  border-radius: 2em;
-  padding: 8px 16px;
-  font-size: 1rem;
-  cursor: pointer;
+  padding: 5px 15px;
+  color:white ;
+  background-color: #00706e;
+  border: 1px solid #00706e;
+  /* style={{display:'',color:'white',backgroundColor:'#00706e',}} */
 }
-/* .join-button:hover {
-    color: #f2f5f7;
-    background-color: transparent;
-    border:1.5px solid #f2f5f7;
-    transition: all ease-in-out 350ms;
-} */
+.login-btn-div {
+  padding-right: 5px;
+}
+.login-button {
+
+  padding: 5px 15px;
+  color: #00706e;
+  background-color: white;
+  border: 1px solid #00706e;
+}
+
 
 /*Styling Hamburger Icon*/
 .hamburger div {
@@ -113,14 +114,14 @@
   height: 3px;
   background: #000000;
   margin: 5px;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 .toggle div {
   width: 30px;
   height: 3px;
   background: #ffffff;
   margin: 5px;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 .hamburger {
   display: none;
@@ -128,7 +129,7 @@
 .linkStyle {
   color: "white";
 }
-.li{
+.li {
   margin-right: 15px;
 }
 
@@ -140,34 +141,33 @@
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
   .pullDown:before,
-.pullDown:after {
-  margin-bottom: -3px;
+  .pullDown:after {
+    margin-bottom: -3px;
 
-  position: absolute;
-  opacity: 0;
-  width: 0%;
-  height: 3px;
-  content: "";
-  background: rgb(255, 255, 255);
-  transition: all 0.3s;
-}
-.pullDown:before {
-  right: 0px;
-  bottom: 0px;
-}
-.pullDown:after {
-  left: 0px;
-  top: 0px;
-}
-.pullDown:hover:before,
-.pullDown:hover:before {
-  opacity: 1;
-  width: 100%;
-}
-  .pullDownColor{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 3px;
+    content: "";
+    background: rgb(255, 255, 255);
+    transition: all 0.1s;
+  }
+  .pullDown:before {
+    right: 0px;
+    bottom: 0px;
+  }
+  .pullDown:after {
+    left: 0px;
+    top: 0px;
+  }
+  .pullDown:hover:before,
+  .pullDown:hover:before {
+    opacity: 1;
+    width: 100%;
+  }
+  .pullDownColor {
     font-weight: 300;
     color: white;
-  
   }
   .navTwo {
     display: block;
@@ -175,7 +175,25 @@
   }
   .navThree {
     display: block;
-    margin:50px auto;
+    margin: 50px auto;
+  }
+
+  .join-button {
+    padding: 6px 15px;
+    color:white ;
+    background-color: #00706e;
+    border: 1px solid  #ffffff;
+    /* border: 1px solid #00706e; */
+    /* style={{display:'',color:'white',backgroundColor:'#00706e',}} */
+  }
+  .login-button {
+    padding: 6px 25px;
+    color: white;
+    background-color: #00706e;
+    border: 1px solid  #ffffff;
+  }
+  .login-btn-div {
+    padding-bottom: 10px;
   }
   .hamburger {
     display: block;
@@ -185,7 +203,7 @@
     top: 50%;
     transform: translate(-5%, -50%);
     z-index: 2;
-    transition: all 0.7s ease;
+    transition: all 0.1s ease;
   }
 
   .nav-links {
@@ -209,16 +227,16 @@
     opacity: 1;
   }
   .nav-links .li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
+    transition: all 0.3s ease 0.1s;
   }
   .nav-links .li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
+    transition: all 0.3s ease 0.2s;
   }
   .nav-links .li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
+    transition: all 0.3s ease 0.3s;
   }
   .nav-links .li:nth-child(4) {
-    transition: all 0.5s ease 0.7s;
+    transition: all 0.3s ease 0.4s;
   }
 
   .li .fade {
@@ -227,10 +245,10 @@
 }
 .fade {
   /* margin-right: 15; */
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-.btndiv{
- margin: auto;
+.btndiv {
+  margin: auto;
 }
 
 /*Animating Hamburger Icon on Click*/
@@ -238,7 +256,7 @@
   transform: rotate(-45deg) translate(-5px, 6px);
 }
 .toggle .line2 {
-  transition: all 0.7s ease;
+  transition: all 0.3s ease;
   width: 0;
 }
 .toggle .line3 {

@@ -1,0 +1,258 @@
+.loadingPageHeight {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadingPageImage {
+  width: 125px;
+  height: 125px;
+  transition: width 1s, height 1s;
+  animation-name: lodingLogo;
+  animation-duration: 1s;
+  animation-iteration-count: 10;
+  /* animation-timing-function: ease-in; */
+  animation-direction: alternate-reverse;
+}
+.loadingPageImage:hover {
+}
+@keyframes lodingLogo {
+  0% {
+    width: 120px;
+    height: 120px;
+  }
+  5% {
+    width: 122px;
+    height: 122px;
+  }
+  10% {
+    width: 124px;
+    height: 124px;
+  }15% {
+    width: 126px;
+    height: 126px;
+  }20% {
+    width: 128px;
+    height: 128px;
+  }25% {
+    width: 130px;
+    height: 130px;
+  }30% {
+    width: 132px;
+    height: 132px;
+  }35% {
+    width: 134px;
+    height: 134px;
+  }40% {
+    width: 136px;
+    height: 136px;
+  }45% {
+    width: 138px;
+    height: 138px;
+  }50% {
+    width: 140px;
+    height: 140px;
+  }55% {
+    width: 142px;
+    height: 142px;
+  }60% {
+    width: 144px;
+    height: 144px;
+  }65% {
+    width: 146px;
+    height: 146px;
+  }70% {
+    width: 148px;
+    height: 148px;
+  }75% {
+    width: 150px;
+    height: 150px;
+  }80% {
+    width: 152px;
+    height: 152px;
+  }85% {
+    width: 154px;
+    height: 154px;
+  }90% {
+    width: 156px;
+    height: 156px;
+  }95% {
+    width: 158px;
+    height: 158px;
+  }100% {
+    width: 160px;
+    height: 160px;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  /* 0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }0% {
+    width: 144px;
+    height: 144px;
+  }
+  25% {
+    width: 160px;
+    height: 160px;
+  }
+  50%{
+    width: 175px;
+    height: 175px;
+  }
+  75% {
+    width: 190px;
+    height: 190px;
+  }
+  100% {
+    width: 205px;
+    height: 205px;
+  } */
+}

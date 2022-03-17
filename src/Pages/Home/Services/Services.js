@@ -9,7 +9,7 @@ import './Services.css'
 const Services = () => {
     return (
         <div style={{margin:'50px 0'}}>
-            <div className='box' >
+            <div className='boxS' >
                 <Typography variant='span' style={{ fontWeight: '700', backgroundColor: '#F4DDDF', color: "red" }}>BUSINESS PACKAGES
                 </Typography>
                 <div className='serviceHeading' style={{ margin: "35px 0" }}><Typography variant='span' style={{ color: "#556270", backgroundColor: '#F4DDDF' }}>Tailored to your needs</Typography></div>

@@ -21,7 +21,7 @@
         margin-top: -150px;
     }
     .inputs{
-        margin: 30px 0 0 20%;
+        margin: -150px 0 0 20%;
     } 
     .nputsD{
         display: block;
@@ -51,7 +51,7 @@
         /* display: none;   */
     }   
     .inputs{
-        margin: 30px 0 0 20%;
+        margin: -200px 0 0 20%;
     } 
     .sameInput {
         padding: 10px 0px 10px 02px;
@@ -68,17 +68,30 @@
 
 /* Mini Screen or Laptop  */
 @media (min-width: 769px) and (max-width: 899px) { 
+    .newsletter{
+        margin-top: -250px;
+    }  
+     .grid{
+        margin-top: -150px;
+    }
 
     .inputs{
-        margin: 50px 0 0 20%;
+        margin: -250px 0 0 20%;
     }
 
 }
 @media (min-width: 900px) and (max-width: 1024px) { 
+    .newsletter{
+        margin-top: -100px;
+    }  
+     /* .grid{
+        margin-top: -150px;
+    } */
 
-    .inputs{
-        margin: 250px 0 0 0
-    }
+    /* .inputs{
+        margin: -250px 0 0 20%;
+    } */
+
 
 }
 /* Big Screen  */

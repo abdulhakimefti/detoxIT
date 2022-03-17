@@ -40,8 +40,8 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>
-                <Link to="/courses"><Button> <ArrowForwardIosIcon
-                  style={{ color: "white", marginTop: "-10px" }}
+                <Link to="/courses"><Button> <ArrowForwardIosIcon className='icon-ion'
+                  style={{ color: "white",  }}
                 ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
@@ -61,8 +61,8 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <Link to="/softskill"><Button> <ArrowForwardIosIcon
-                  style={{ color: "white", marginTop: "-10px" }}
+                <Link to="/softskill"><Button> <ArrowForwardIosIcon className='icon-ion'
+                  style={{ color: "white",  }}
                 ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
@@ -81,8 +81,8 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <Link to="/webdev"><Button> <ArrowForwardIosIcon
-                  style={{ color: "white", marginTop: "-10px" }}
+                <Link to="/webdev"><Button> <ArrowForwardIosIcon className='icon-ion'
+                  style={{ color: "white", }}
                 ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
@@ -101,8 +101,8 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <Link  to="/digitalcontent"><Button> <ArrowForwardIosIcon
-                  style={{ color: "white", marginTop: "-10px" }}
+                <Link  to="/digitalcontent"><Button> <ArrowForwardIosIcon className='icon-ion'
+                  style={{ color: "white",  }}
                 ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
@@ -121,8 +121,8 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <Link to="/designservices"><Button> <ArrowForwardIosIcon
-                  style={{ color: "white", marginTop: "-10px" }}
+                <Link to="/designservices"><Button> <ArrowForwardIosIcon className='icon-ion'
+                  style={{ color: "white", }}
                 ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>
@@ -142,8 +142,8 @@ const ServiceMain = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
                   ipsum nemo. Vel consequuntur ratione laborum.
                 </p>{" "}
-                <Link to="/computerequip"><Button> <ArrowForwardIosIcon
-                  style={{ color: "white", marginTop: "-10px" }}
+                <Link to="/computerequip"><Button> <ArrowForwardIosIcon className='icon-ion'
+                  style={{ color: "white" }}
                 ></ArrowForwardIosIcon></Button>    </Link>
               </div>
             </div>

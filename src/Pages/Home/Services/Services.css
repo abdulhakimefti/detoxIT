@@ -1,4 +1,4 @@
-.box {
+.boxS  {
   margin: 0 10%;
 }
 .serviceHeading {
@@ -28,7 +28,7 @@
 }
 /* Mobile  */
 @media (min-width: 280px) and (max-width: 360px) {
-  .box {
+  .boxS {
     margin: -200px 9% 0 9%;
   }
   .serviceHeading {
@@ -52,7 +52,7 @@
 /* Mobile 2  */
 
 @media (min-width: 361px) and (max-width: 420px) {
-  .box {
+  .boxS {
     margin: -180px 13% 0 13%;
   }
   .serviceHeading {
@@ -76,7 +76,7 @@
 /* Mobile 3  */
 
 @media (min-width: 421px) and (max-width: 480px) {
-  .box {
+  .boxS {
     margin: -160px 0% 0 18%;
   }
   .serviceHeading {
@@ -99,7 +99,7 @@
 }
 /* Tablet or Ipad  */
 @media (min-width: 481px) and (max-width: 600px) {
-  .box {
+  .boxS {
     margin: -160px 2% 0 4%;
   }
   .serviceHeading {
@@ -132,7 +132,7 @@
 
 /* Tablet or Ipad  */
 @media (min-width: 600px) and (max-width: 768px) {
-        .box {
+        .boxS {
             margin: -160px 2% 0 4%;
           }
           .serviceHeading {
@@ -165,7 +165,7 @@
 
 /* Mini Screen or Laptop  */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .box {
+    .boxS {
         margin: -160px 2% 0 8%;
       }
       .serviceHeading {
@@ -197,7 +197,7 @@
 }
 /* Big Screen  */
 @media (min-width: 1025px) and (max-width: 1200px) {
-    .box {
+    .boxS {
         margin: -160px 2% 0 8%;
       }
       .serviceHeading {

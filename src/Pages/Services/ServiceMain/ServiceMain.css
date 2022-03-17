@@ -8,6 +8,9 @@
   background: #3f3752;
   /*Services Styles*/
 }
+.icon-ion{
+  margin-top: -10px;
+}
 .service-title { 
     font-size: 30px;
     letter-spacing: 0;
@@ -59,7 +62,7 @@
   left: calc(50% - 40px);
   transition-delay: 0s;
 }
-.services__box:hover .services__icon ion-icon {
+.services__box:hover .services__icon .icon-ion {
   font-size: 2rem;
   transition-delay: 0s;
 }
@@ -120,7 +123,33 @@
   }
 .services{
   padding: auto;
-}}
+}
+
+.services__title {
+  margin: 10px 0 5px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.services__description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-top: 3px;
+}
+.services__icon img {
+  width:38px;
+}
+
+.services__box:hover .services__icon {
+  width: 60px;
+  height: 60px;
+  top: 17px;
+  left: calc(50% - 30px);
+}
+.services__content {
+  margin-top: 50px;
+}
+
+}
 @media (min-width: 331px) and (max-width: 390px) { 
   .services__box {
     position: relative;
@@ -132,6 +161,29 @@
   }
 .services{
   padding: 0 8%;
+}
+.services__title {
+  margin: 10px 0 5px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.services__description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.services__icon img {
+  width:44px;
+}
+
+.services__box:hover .services__icon {
+  width: 65px;
+  height: 65px;
+  top: 25px;
+  left: calc(50% - 30px);
+}
+.services__content {
+  margin-top: 65px;
 }
 
 }
@@ -146,6 +198,9 @@
   }  */
   .services{
     padding: auto;
+  }
+  .services__content {
+    margin-top: 85px;
   }
   
 }
@@ -165,6 +220,35 @@
     padding: auto;
   }
 
+  .services__title {
+    margin: 10px 0 5px 0;
+    font-size: .7rem;
+    font-weight: 600;
+  }
+  .services__description {
+    font-size: 0.5rem;
+    font-weight: 400;
+    padding-top: 0px;
+  }
+  .services__icon img {
+    width:32px;
+  }
+  
+  .services__box:hover .services__icon {
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    left: calc(50% - 25px);
+  }
+  .services__content {
+    margin-top: 40px;
+  }
+  .icon-ion{
+    margin-top: -30px;
+    /* font-size: 12px; */
+  }
+
+
 }
 @media (min-width: 601px) and (max-width: 800px) { 
   .services__box {
@@ -180,8 +264,36 @@
   .services{
     padding: auto;
   }
+  .services__title {
+    margin: 10px 0 5px 0;
+    font-size: .9rem;
+    font-weight: 600;
+  }
+  .services__description {
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .services__icon img {
+    width:38px;
+  }
+  
+  .services__box:hover .services__icon {
+    width: 56px;
+    height: 56px;
+    top: 25px;
+    left: calc(50% - 28px);
+  }
+  .services__content {
+    margin-top: 55px;
+  }
+  .icon-ion{
+    margin-top: -25px;
+    /* font-size: 12px; */
+  }
+  
+  }
 
-}
 
 /* Mini Screen or Laptop  */
 @media (min-width: 801px) and (max-width: 900px) { 
@@ -198,10 +310,32 @@
   .services{
     padding: auto;
   }
+  .services__title {
+    margin: 10px 0 5px 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .services__description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .services__icon img {
+    width:44px;
+  }
+  
+  .services__box:hover .services__icon {
+    width: 65px;
+    height: 65px;
+    top: 30px;
+    left: calc(50% - 30px);
+  }
+  .services__content {
+    margin-top: 75px;
+  }
+  
+  }
 
-
-
-}
 @media (min-width: 901px) and (max-width: 1024px) { 
   .services__box {
     position: relative;
@@ -215,6 +349,33 @@
 
   .services{
     padding: auto;
+  }
+  .services__title {
+    margin: 10px 0 5px 0;
+    font-size: .8rem;
+    font-weight: 600;
+  }
+  .services__description {
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .services__icon img {
+    width:38px;
+  }
+  
+  .services__box:hover .services__icon {
+    width: 56px;
+    height: 56px;
+    top: 10px;
+    left: calc(50% - 28px);
+  }
+  .services__content {
+    margin-top: 40px;
+  }
+  .icon-ion{
+    margin-top: -25px;
+    /* font-size: 12px; */
   }
 
 
@@ -236,7 +397,29 @@
   .services{
     padding: auto;
   }
-
+  .services__title {
+    margin: 10px 0 5px 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .services__description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .services__icon img {
+    width:44px;
+  }
+  
+  .services__box:hover .services__icon {
+    width: 65px;
+    height: 65px;
+    top: 30px;
+    left: calc(50% - 30px);
+  }
+  .services__content {
+    margin-top: 75px;
+  }
 
 }
 @media (min-width: 1440px) and (max-width: 2500px) { 
